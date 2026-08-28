@@ -5,3 +5,16 @@ newArr.push(10)
 
 console.log(newArr);
 console.log("Original array: ", arr);
+
+
+const user = {
+    name: "Munim",
+    age: 342,
+    city: "Barisal"
+}
+
+const newUser = {...user, image:"fdg"};
+newUser.image = "url----"
+
+console.log(newUser);
+console.log("Original user: ", user);
